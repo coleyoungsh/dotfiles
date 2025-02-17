@@ -9,12 +9,16 @@ logfile        ~/.local/share/mail/msmtp.log
 account cole@young.sh
 host mail.young.sh
 port 465
-from cole@young.sh
+tls_starttls   off
+from Cole Young <cole@young.sh>
+user cole@young.sh
 passwordeval pass show young.sh/cole
 
 # cole@littleloaf.co
 account cole@littleloaf.co
 host mail.young.sh
 port 465
-from cole@littleloaf.co
+tls_starttls   off
+from Cole Young <cole@littleloaf.co>
+user cole@littleloaf.co
 passwordeval pass show littleloaf.co/cole
