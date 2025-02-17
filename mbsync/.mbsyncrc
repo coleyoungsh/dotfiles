@@ -1,0 +1,43 @@
+# cole@young.sh
+IMAPStore cole@young.sh-remote
+Host mail.young.sh
+Port 993
+User cole@young.sh
+PassCmd "/usr/bin/pass show young.sh/cole"
+TLSType IMAPS
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+MaildirStore cole@young.sh
+Path ~/.local/share/mail/cole@young.sh/
+Inbox ~/.local/share/mail/cole@young.sh/INBOX
+Subfolders Verbatim
+
+Channel cole@young.sh
+Far :cole@young.sh-remote:
+Near :cole@young.sh:
+Create Both
+Expunge Both
+Patterns *
+SyncState *
+
+# cole@littleloaf.co
+IMAPStore cole@littleloaf.co-remote
+Host mail.young.sh
+Port 993
+User cole@littleloaf.co
+PassCmd "/usr/bin/pass show littleloaf.co/cole"
+TLSType IMAPS
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+MaildirStore cole@littleloaf.co
+Path ~/.local/share/mail/cole@littleloaf.co/
+Inbox ~/.local/share/mail/cole@littleloaf.co/INBOX
+Subfolders Verbatim
+
+Channel cole@littleloaf.co
+Far :cole@littleloaf.co-remote:
+Near :cole@littleloaf.co:
+Create Both
+Expunge Both
+Patterns *
+SyncState *
