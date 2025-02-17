@@ -1,0 +1,20 @@
+# Set default values for all following accounts.
+defaults
+auth           on
+tls            on
+tls_trust_file /etc/ssl/certs/ca-certificates.crt
+logfile        ~/.local/share/mail/msmtp.log
+
+# cole@young.sh
+account cole@young.sh
+host mail.young.sh
+port 465
+from cole@young.sh
+passwordeval pass show young.sh/cole
+
+# cole@littleloaf.co
+account cole@littleloaf.co
+host mail.young.sh
+port 465
+from cole@littleloaf.co
+passwordeval pass show littleloaf.co/cole
