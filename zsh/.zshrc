@@ -5,6 +5,9 @@ export ZK_NOTEBOOK_DIR="/home/cole/Documents/notes/"
 export STARSHIP_CONFIG="/home/cole/.config/starship/starship.toml"
 export TERM=xterm-256color
 
+export MSMTPQ_Q="${XDG_DATA_HOME:-$HOME/.local/share}/mail.queue"
+export MSMTPQ_LOG="${XDG_DATA_HOME:-$HOME/.local/share}/mail.queue/msmtp.queue.log"
+
 # catppuccin for fzf
 export FZF_DEFAULT_OPTS=" \
 --color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
@@ -31,3 +34,5 @@ alias cat='bat'
 alias lg='lazygit'
 alias y='yazi'
 alias grep='rg'
+alias mq='msmtp-queue'
+alias mqf='msmtp-queue -r'
