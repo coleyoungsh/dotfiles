@@ -68,7 +68,7 @@
 	#     Radius of background box corners in pixels
 
 	# Prompt text theme
-	prompt-color = #f38ba8
+	prompt-color = #89b4fa
 	prompt-background = #00000000
 	prompt-background-padding = 0
 	prompt-background-corner-radius = 0
@@ -183,7 +183,7 @@
 	border-width = 2
 
 	# Border color
-	border-color = #595959
+	border-color = #585b70
 
 	# Radius of window corners in pixels.
 	corner-radius = 10
