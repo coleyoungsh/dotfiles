@@ -5,8 +5,8 @@ export ZK_NOTEBOOK_DIR="/home/cole/Documents/notes/"
 export STARSHIP_CONFIG="/home/cole/.config/starship/starship.toml"
 export TERM=xterm-256color
 
-export MSMTPQ_Q="${XDG_DATA_HOME:-$HOME/.local/share}/mail.queue"
-export MSMTPQ_LOG="${XDG_DATA_HOME:-$HOME/.local/share}/mail.queue/msmtp.queue.log"
+export MSMTPQ_Q="${XDG_DATA_HOME:-$HOME/.local/share}/mail/queue"
+export MSMTPQ_LOG="${XDG_DATA_HOME:-$HOME/.local/share}/mail/queue/msmtpq.log"
 
 # catppuccin for fzf
 export FZF_DEFAULT_OPTS=" \
