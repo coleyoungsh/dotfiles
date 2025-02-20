@@ -10,7 +10,7 @@
 # configured here named ".notmuch".
 #
 [database]
-path=/home/cole/.local/share/mail
+path=.local/share/mail
 # User configuration
 #
 # Here is where you can let notmuch know how you would like to be
