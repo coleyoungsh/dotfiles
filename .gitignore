@@ -1,1 +1,8 @@
 **/tmux/plugins/
+**/cmus/playlists/
+**/cmus/autosave
+**/cmus/cache
+**/cmus/command-history
+**/cmus/lib.pl
+**/cmus/search-history
+
