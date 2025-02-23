@@ -38,3 +38,8 @@ alias mq='msmtp-queue'
 alias mqf='msmtp-queue -r'
 alias kd='khard'
 alias vd='vdirsyncer'
+
+# launch hyprland
+if uwsm check may-start && uwsm select; then
+	exec systemd-cat -t uwsm_start uwsm start default
+fi
