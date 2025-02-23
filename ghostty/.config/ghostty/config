@@ -3,5 +3,7 @@ window-padding-x = 20
 window-padding-y = 20
 resize-overlay = never
 shell-integration = zsh
+mouse-hide-while-typing
 confirm-close-surface = false
+gtk-single-instance = true
 theme = catppuccin-mocha
