@@ -14,12 +14,20 @@ alias ls='eza -al'
 alias t='todo.sh'
 alias cat='bat'
 alias lg='lazygit'
-alias y='yazi'
 alias grep='rg'
 alias mq='msmtp-queue'
 alias mqf='msmtp-queue -r'
 alias kd='khard'
 alias vd='vdirsyncer'
+
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
 
 export PS1="%{%F{39}%}%n%{%F{45}%}@%{%F{51}%}%m %{%F{195}%}%1~ %{%f%}$ "
 export PATH="$PATH:${$(find ~/.local/bin -type d -printf %p:)%%:}"
