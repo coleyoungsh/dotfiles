@@ -1,0 +1,107 @@
+{
+  "bar.customModules.updates.pollingInterval": 1440000,
+  "theme.bar.location": "bottom",
+  "theme.bar.buttons.enableBorders": false,
+  "bar.workspaces.monitorSpecific": false,
+  "bar.workspaces.show_icons": false,
+  "bar.workspaces.show_numbered": false,
+  "bar.workspaces.workspaceMask": false,
+  "bar.workspaces.showWsIcons": false,
+  "bar.workspaces.showApplicationIcons": false,
+  "bar.workspaces.scroll_speed": 0,
+  "theme.font.size": "1rem",
+  "theme.font.name": "JetBrainsMono Nerd Font",
+  "theme.font.label": "JetBrainsMono Nerd Font",
+  "menus.clock.weather.location": "24011",
+  "theme.osd.enable": true,
+  "theme.bar.floating": false,
+  "bar.workspaces.reverse_scroll": true,
+  "bar.network.label": false,
+  "bar.volume.label": false,
+  "bar.bluetooth.label": false,
+  "bar.battery.label": false,
+  "bar.clock.showTime": true,
+  "bar.clock.format": "%I:%M%p",
+  "bar.media.show_active_only": true,
+  "bar.notifications.show_total": false,
+  "bar.notifications.hideCountWhenZero": false,
+  "menus.dashboard.powermenu.avatar.image": "/home/cole/pics/47539522.jpg",
+  "menus.dashboard.shortcuts.enabled": true,
+  "menus.dashboard.directories.enabled": false,
+  "theme.bar.outer_spacing": "0.1em",
+  "bar.windowtitle.custom_title": true,
+  "bar.windowtitle.icon": true,
+  "menus.dashboard.shortcuts.left.shortcut4.command": "tofi-run | xargs hyprctl dispatch exec --",
+  "menus.dashboard.shortcuts.left.shortcut3.command": "webcord",
+  "menus.dashboard.shortcuts.left.shortcut2.command": "spotify",
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Firefox",
+  "menus.dashboard.shortcuts.left.shortcut1.command": "firefox",
+  "menus.dashboard.shortcuts.left.shortcut1.icon": "󰈹",
+  "menus.dashboard.directories.left.directory1.label": "󰉍 dls",
+  "menus.dashboard.directories.left.directory2.label": "󰉏 vid",
+  "menus.dashboard.directories.right.directory2.label": "󰉏 pic",
+  "menus.dashboard.directories.right.directory3.label": "󱂵 home",
+  "menus.dashboard.directories.right.directory1.label": "󱧶 doc",
+  "bar.autoHide": "never",
+  "bar.workspaces.workspaces": 5,
+  "bar.windowtitle.truncation": true,
+  "theme.bar.buttons.volume.enableBorder": false,
+  "theme.bar.menus.menu.bluetooth.card.color": "#1e1e2e",
+  "notifications.autoDismiss": true,
+  "menus.transition": "crossfade",
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "network",
+        "bluetooth",
+        "systray",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "bar.launcher.autoDetectIcon": false,
+  "theme.bar.buttons.dashboard.enableBorder": false,
+  "menus.clock.weather.enabled": false,
+  "menus.clock.time.hideSeconds": true,
+  "wallpaper.image": "/home/cole/pics/wallpaper.png",
+  "theme.osd.margins": "7px 7px 7px 7px"
+}
