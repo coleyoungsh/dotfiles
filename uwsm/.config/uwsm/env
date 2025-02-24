@@ -3,7 +3,9 @@ export PATH="$PATH:$HOME/.local/bin"
 export TERM="xterm-256color"
 
 # hyprland
+export XCURSOR_THEME="Bibata-Modern-Classic"
 export XCURSOR_SIZE=24
+export HYPRCURSOR_THEME="Bibata-Modern-Classic"
 export HYPRCURSOR_SIZE=24
 
 export EDITOR="nvim"
