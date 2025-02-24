@@ -27,7 +27,6 @@ function y() {
 }
 
 export PS1="%{%F{39}%}%n%{%F{45}%}@%{%F{51}%}%m %{%F{195}%}%1~ %{%f%}$ "
-export PATH="$PATH:${$(find ~/.local/bin -type d -printf %p:)%%:}"
 export TERM="xterm-256color"
 
 export EDITOR="nvim"
