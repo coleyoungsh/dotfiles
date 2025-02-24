@@ -21,6 +21,7 @@ alias mq='msmtp-queue'
 alias mqf='msmtp-queue -r'
 alias kd='khard'
 alias vd='vdirsyncer'
+alias mshuf='find . -type f,l -print0 | xargs -0 mpv --shuffle'
 
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
