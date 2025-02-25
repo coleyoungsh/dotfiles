@@ -1,3 +1,5 @@
+source <(fzf --zsh)
+
 # Basic auto/tab complete:
 autoload -U compinit
 zstyle ':completion:*' menu select
@@ -6,8 +8,8 @@ compinit
 _comp_options+=(globdots)		# Include hidden files.
 
 export HISTFILE=$HOME/.cache/zsh_history
-export HISTSIZE=10000
-export SAVEHIST=10000
+export HISTSIZE=100000
+export SAVEHIST=100000
 setopt SHARE_HISTORY
 
 # Aliases
