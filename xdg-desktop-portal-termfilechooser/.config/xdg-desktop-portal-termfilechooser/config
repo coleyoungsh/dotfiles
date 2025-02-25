@@ -1,0 +1,3 @@
+[filechooser]
+default_dir=$HOME/Downloads
+cmd=TERMCMD='uwsm app -- foot -T "terminal filechooser"' yazi-wrapper.sh
