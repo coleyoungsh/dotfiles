@@ -12,7 +12,6 @@
   "theme.font.size": "1rem",
   "theme.font.name": "JetBrainsMono Nerd Font",
   "theme.font.label": "JetBrainsMono Nerd Font",
-  "menus.clock.weather.location": "24011",
   "theme.osd.enable": true,
   "theme.bar.floating": false,
   "bar.workspaces.reverse_scroll": true,
