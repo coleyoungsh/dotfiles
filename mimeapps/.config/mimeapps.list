@@ -2,3 +2,6 @@
 [Default Applications]
 application/pdf=org.pwmt.zathura.desktop
 x-scheme-handler/mailto=aerc.desktop
+image/jpeg=imv.desktop
+image/jpg=imv.desktop
+image/png=imv.desktop
