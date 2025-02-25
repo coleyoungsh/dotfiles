@@ -43,5 +43,5 @@ highlight feedlist ".*0/0.." default default invis
 player "mpv --no-video"
 download-path "~/Downloads/podcasts/%n"
 download-filename-format "%F-%t.%e"
-podlist-format "%4i [%6dMB/%6tMB] [%5p%%] [%12K] %S %F"
+podlist-format "%4i [%dMB/%tMB] [%p%%] %S %F"
 max-downloads 5
