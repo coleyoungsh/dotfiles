@@ -11,10 +11,7 @@ configurations:
     boxes:
       - mailbox: INBOX
         onNewMail: "mbsync cole@young.sh:INBOX && notmuch new"
-        onNewMailPost: 'notify-send "new mail!"'
-      - mailbox: Junk
-        onNewMail: "mbsync cole@young.sh:Junk && notmuch new"
-        onNewMailPost: 'notify-send "new mail!"'
+        onNewMailPost: 'mbsyncnotify cole@young.sh'
   - host: mail.young.sh
     port: 993
     tls: true
@@ -27,7 +24,4 @@ configurations:
     boxes:
       - mailbox: INBOX
         onNewMail: "mbsync cole@littleloaf.co:INBOX && notmuch new"
-        onNewMailPost: 'notify-send "new mail!"'
-      - mailbox: Junk
-        onNewMail: "mbsync cole@littleloaf.co:Junk && notmuch new"
-        onNewMailPost: 'notify-send "new mail!"'
+        onNewMailPost: 'mbsyncnotify cole@littleloaf.co'
