@@ -1,0 +1,33 @@
+configurations:
+  - host: mail.young.sh
+    port: 993
+    tls: true
+    tlsOptions:
+      rejectUnauthorized: true
+      starttls: false
+    username: cole@young.sh
+    passwordCMD: 'pass young.sh/cole'
+    xoAuth2: false
+    boxes:
+      - mailbox: INBOX
+        onNewMail: "mbsync cole@young.sh:INBOX && notmuch new"
+        onNewMailPost: 'notify-send "new mail!"'
+      - mailbox: Junk
+        onNewMail: "mbsync cole@young.sh:Junk && notmuch new"
+        onNewMailPost: 'notify-send "new mail!"'
+  - host: mail.young.sh
+    port: 993
+    tls: true
+    tlsOptions:
+      rejectUnauthorized: true
+      starttls: false
+    username: cole@littleloaf.co
+    passwordCMD: 'pass littleloaf.co/cole'
+    xoAuth2: false
+    boxes:
+      - mailbox: INBOX
+        onNewMail: "mbsync cole@littleloaf.co:INBOX && notmuch new"
+        onNewMailPost: 'notify-send "new mail!"'
+      - mailbox: Junk
+        onNewMail: "mbsync cole@littleloaf.co:Junk && notmuch new"
+        onNewMailPost: 'notify-send "new mail!"'
