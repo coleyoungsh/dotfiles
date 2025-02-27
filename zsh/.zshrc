@@ -27,6 +27,7 @@ alias mshuf='find . -type f,l -print0 | xargs -0 mpv --shuffle'
 alias cp='rsync -aP'
 alias mv='rsync -aP --remove-source-files'
 alias wl='wishlist'
+alias irssi='ssh irssi'
 
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
