@@ -103,5 +103,6 @@
   "menus.clock.weather.enabled": false,
   "menus.clock.time.hideSeconds": true,
   "wallpaper.image": "/home/cole/pics/wallpaper.png",
-  "theme.osd.margins": "7px 7px 7px 7px"
+  "theme.osd.margins": "7px 7px 7px 7px",
+  "theme.bar.menus.enableShadow": false
 }
