@@ -142,20 +142,20 @@
 ### Text layout
 #
 	# Prompt to display.
-	prompt-text = "run: "
+	prompt-text = " "
 
 	# Extra horizontal padding between prompt and input.
-	prompt-padding = 0
+	prompt-padding = 10
 
 	# Placeholder input text.
-	placeholder-text = ""
+	placeholder-text = "run..."
 
 	# Maximum number of results to display.
 	# If 0, tofi will draw as many results as it can fit in the window.
 	num-results = 0
 
 	# Spacing between results in pixels. Can be negative.
-	result-spacing = 0
+	result-spacing = 4 
 
 	# List results horizontally.
 	horizontal = false
