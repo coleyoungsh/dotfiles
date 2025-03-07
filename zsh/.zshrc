@@ -29,7 +29,7 @@ alias mshuf='find . -type f,l -print0 | xargs -0 mpv --shuffle'
 alias wl='wishlist'
 alias irssi='ssh irssi'
 alias nb='newsboat'
-alias pb='podboat'
+alias pb='podboat -a'
 
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
