@@ -129,6 +129,7 @@ keymap = [
 	{ on = [ "g", "d" ],       run = "cd ~/Downloads",   desc = "Goto ~/Downloads" },
 	{ on = [ "g", "m" ],       run = "cd /mnt",   desc = "Goto /mnt" },
 	{ on = [ "g", "s" ],       run = "cd ~/.local/share",   desc = "Goto ~/.local/share" },
+	{ on = [ "g", "r" ],       run = "cd ~/.local/repos",   desc = "Goto ~/.local/repos" },
 	{ on = [ "g", "<Space>" ], run = "cd --interactive", desc = "Jump interactively" },
 
 	# Tabs
