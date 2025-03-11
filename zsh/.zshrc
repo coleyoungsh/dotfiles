@@ -30,8 +30,6 @@ alias wl='wishlist'
 alias irssi='ssh irssi'
 alias nb='newsboat'
 alias pb='podboat -a'
-alias pb='podboat'
-alias emacs='emacsclient -c -a "emacs"' # testing emacs
 
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
