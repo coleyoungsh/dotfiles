@@ -15,7 +15,7 @@ setopt SHARE_HISTORY
 # Aliases
 alias cd='z' # zoxide
 alias ls='eza -al'
-alias t='pter ~/.todo/todo.txt'
+alias t='pter ~/.todo/todo.txt ~/.todo/done.txt'
 alias cat='bat'
 alias lg='lazygit'
 alias grep='rg'
