@@ -12,6 +12,7 @@ export TERM="xterm-256color"
 export TERMINAL="foot"
 export EDITOR="nvim"
 export BROWSER="zen-browser"
+export MANPAGER='nvim +Man!'
 
 # msmtpq dirs
 export MSMTPQ_Q="${XDG_DATA_HOME:-$HOME/.local/share}/mail/queue"
