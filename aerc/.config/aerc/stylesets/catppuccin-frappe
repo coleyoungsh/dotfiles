@@ -41,6 +41,8 @@ part_switcher.selected.bg=#303446
 part_mimetype.selected.fg=#c6d0f5
 part_mimetype.selected.bg=#303446
 
+selector_focused.bg=#303446
+
 [viewer]
 url.fg=#8caaee
 url.underline=true
