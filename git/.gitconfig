@@ -2,4 +2,6 @@
 	email = cole@young.sh
 	name = Cole Young
 [commit]
-	gpgsign = true
+  gpgsign = true
+[sendmail]
+  smtpserver = msmtpq -a cole@young.sh
