@@ -1,3 +1,5 @@
 [user]
 	email = cole@young.sh
 	name = Cole Young
+[commit]
+	gpgsign = true
