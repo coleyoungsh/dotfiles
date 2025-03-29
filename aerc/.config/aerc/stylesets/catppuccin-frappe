@@ -23,6 +23,8 @@ msglist_result.fg=#8caaee
 msglist_result.bold=true
 msglist_*.selected.bold=true
 msglist_*.selected.bg=#414559
+msglist_thread_context.fg=#737994
+msglist_thread_context.selected.fg=#c6d0f5
 
 dirlist_*.selected.bold=true
 dirlist_*.selected.bg=#414559
