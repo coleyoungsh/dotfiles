@@ -16,8 +16,6 @@ setopt SHARE_HISTORY
 alias cd='z' # zoxide
 alias ls='eza -al'
 alias t='todo.sh'
-alias tl='pter ~/.todo/todo.txt'
-alias tla='pter ~/.todo/todo.txt ~/.todo/done.txt'
 alias cat='bat'
 alias lg='lazygit'
 alias grep='rg'
@@ -26,13 +24,10 @@ alias mqf='msmtp-queue -r'
 alias kd='khard'
 alias vd='vdirsyncer'
 alias mshuf='find . -type f,l -print0 | xargs -0 mpv --shuffle'
-# alias cp='rsync -aP'
-# alias mv='rsync -aP --remove-source-files'
 alias wl='wishlist'
 alias irssi='ssh irssi'
 alias nb='newsboat'
 alias pb='podboat -a'
-
 alias 1='rem -gaad -iCOLOR=1'
 for d in {2..6} ; do
     alias ${d}='rem -gaad -iCOLOR=1 "*"'${d}
