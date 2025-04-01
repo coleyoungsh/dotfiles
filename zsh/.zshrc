@@ -33,6 +33,11 @@ alias irssi='ssh irssi'
 alias nb='newsboat'
 alias pb='podboat -a'
 
+alias 1='rem -gaad -iCOLOR=1'
+for d in {2..6} ; do
+    alias ${d}='rem -gaad -iCOLOR=1 "*"'${d}
+done
+
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
 	yazi "$@" --cwd-file="$tmp"
