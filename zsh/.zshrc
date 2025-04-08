@@ -33,6 +33,8 @@ for d in {2..6} ; do
     alias ${d}='rem -gaad -iCOLOR=1 "*"'${d}
 done
 
+function zg() { zk "$@" && zk sync }
+
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
 	yazi "$@" --cwd-file="$tmp"
