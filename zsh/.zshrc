@@ -34,28 +34,8 @@ done
 
 function zg() { zk "$@" && zk sync }
 
-function t() { 
-  local sync() { todo.sh "$@" && todo.sh sync }
-  case "$1" in
-    add|a) sync ;;
-    addm) sync ;;
-    addto) sync ;;
-    append|app) sync ;;
-    archive) sync ;;
-    deduplicate) sync ;;
-    del|rm) sync ;;
-    depri|dp) sync ;;
-    done|do) sync ;;
-    # donow) sync ;;
-    edit) sync ;;
-    move|mv) sync ;;
-    prepend|prep) sync ;;
-    pri|p) sync ;;
-    replace) sync ;;
-    report) sync ;;
-    *) todo.sh "$@" ;;
-  esac
-}
+alias t="todo.sh"
+function tg() { todo.sh "$@" && todo.sh sync }
 
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
