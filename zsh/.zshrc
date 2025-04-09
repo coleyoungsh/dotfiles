@@ -15,7 +15,6 @@ setopt SHARE_HISTORY
 # Aliases
 alias cd='z' # zoxide
 alias ls='eza -al'
-alias t='todo.sh'
 alias cat='bat'
 alias lg='lazygit'
 alias grep='rg'
@@ -34,6 +33,29 @@ for d in {2..6} ; do
 done
 
 function zg() { zk "$@" && zk sync }
+
+function t() { 
+  local sync() { todo.sh "$@" && todo.sh sync }
+  case "$1" in
+    add|a) sync ;;
+    addm) sync ;;
+    addto) sync ;;
+    append|app) sync ;;
+    archive) sync ;;
+    deduplicate) sync ;;
+    del|rm) sync ;;
+    depri|dp) sync ;;
+    done|do) sync ;;
+    # donow) sync ;;
+    edit) sync ;;
+    move|mv) sync ;;
+    prepend|prep) sync ;;
+    pri|p) sync ;;
+    replace) sync ;;
+    report) sync ;;
+    *) todo.sh "$@" ;;
+  esac
+}
 
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
